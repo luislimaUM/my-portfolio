@@ -5,7 +5,7 @@ import {GoMarkGithub} from 'react-icons/go'
 
 const HeaderSocials = () => {
   return (
-    <div class="header__socials">
+    <div className="header__socials">
         <a href='https://linkedin.com' target="_blank"><BsLinkedin/></a>
         <a href='https://github.com' target="_blank"><GoMarkGithub/></a>
         <a href='https://instagram.com' target="_blank"><BsInstagram/></a>
