@@ -12,11 +12,20 @@ const Testimonials = () => {
         <article className='testimonial'>
           <div className='client__avatar'>
             <img src={ME} alt="Avatar One"></img>
-            <h5>Luis Lima</h5>
-            <small className='client__review'>
-              Teste 123456 09876 kilojiugyufhkjoipoihjhfia
-            </small>
           </div>
+          <h5>Luis Lima</h5>
+          <small className='client__review'>
+            Teste 123456 09876 kilojiugyufhkjoipoihjhfia
+          </small>
+        </article>
+        <article className='testimonial'>
+          <div className='client__avatar'>
+            <img src={ME} alt="Avatar One"></img>
+          </div>
+          <h5>Luis Lima</h5>
+          <small className='client__review'>
+            Teste 123456 09876 kilojiugyufhkjoipoihjhfia
+          </small>
         </article>
       </div>
     </section>
